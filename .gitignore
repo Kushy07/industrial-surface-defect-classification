@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data (large files – don’t upload)
+data/
+NEU-DET/
+*.zip
+*.tar.gz
+
+# Environment
+.env
+.venv/
+venv/
+env/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Model weights / checkpoints
+*.h5
+*.hdf5
+*.ckpt
+checkpoints/
